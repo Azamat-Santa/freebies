@@ -58,7 +58,7 @@ section {
 
 a {
     text-decoration: none;
-
+    color:rgb(63, 53, 53);
 }
 
 .navbar-menu__item:hover {
@@ -665,11 +665,17 @@ footer {
     visibility: visible;
     left: 0;
 }
+@media screen and (min-width:1018px){
+.hamburger-menu{
+    display: none;
+}
+}
 
 @media screen and (max-width:1018px) {
     .navbar {
         display: none;
     }
+
 
     .navigate {
         margin-bottom: 60px;
